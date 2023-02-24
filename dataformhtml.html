@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Biodata</h2>
+    <table class="table" border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <form>
+                <td><label for="nim">NIM</label></td>
+                <td>
+                    
+                    <input type="text" id="nim" name="nim">
+                </td>
+        </form>
+        </tr>
+        <tr>
+            <form>
+                <td><label for="nama">Nama</label></td>
+                <td>
+                    <input type="text" id="nama">
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td><label for="alamat">Alamat</label></td>
+                <td>
+                    <textarea name="alamat" id="alamat"></textarea>
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" id="pria" name="sex"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="sex"><label for="wanita">Wanita</label>
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                        <button class="submit">Submit</button>
+                        <button class="reset">Reset</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
